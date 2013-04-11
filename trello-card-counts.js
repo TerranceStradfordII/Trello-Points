@@ -16,7 +16,7 @@ $('.list').each(function() {
 
   if (placeholderIndex !== false) {
     var before = placeholderIndex;
-    var after = count - placeholderIndex;
+    var after = count - placeholderIndex - 1;
     $title.text($title.text() + ' (' + before + ' | ' + after + ')');
   }
   else {
