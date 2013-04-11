@@ -7,8 +7,6 @@ $('.list').each(function() {
 
   // Determine the index of the PLACEHOLDER card, if there is one.
   $this.find('.list-card a').each(function(index, el) {
-    console.log('Text: ' + $(el).text());
-
     if (tester.exec($(el).text()) !== null) {
       placeholderIndex = index;
     }
